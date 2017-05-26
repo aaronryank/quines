@@ -3,7 +3,9 @@ CC := gcc -w
 all:
 	$(CC) 060-shortest.c -o 060-shortest
 	$(CC) 068-unknown.c -o 068-unknown
+	$(CC) 077-efermat.c -o 077-efermat
 	$(CC) 078-jargon-file.c -o 078-jargon-file
+	$(CC) 078-breadbox.c -o 078-breadbox
 	$(CC) 079-unknown.c -o 079-original
 	$(CC) 081-miller.c -o 081-miller
 	$(CC) 084-hu.c -o 084-hu
@@ -17,6 +19,7 @@ all:
 	$(CC) 115-hsieh.c -o 115-hsieh
 	$(CC) 115-reverse.c -o 115-reverse -Df=main
 	$(CC) 124-mogensen.c -o 124-mogensen
+	$(CC) 125-bakulin.c -o 125-bakulin
 	$(CC) 144-reverse.c -o 144-reverse
 	$(CC) 157-emmit.c -o 157-emmit
 	$(CC) 178-cranston.c -o 178-cranston
