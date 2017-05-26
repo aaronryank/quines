@@ -1,6 +1,6 @@
 # c quines
 
-This should contain every valid quine in C, from [my shortest known C quine]() to complete code bowling quines.
+This should contain every valid quine in C, from [my shortest known C quine]() to complete code bowling quines (bowls over 1000 bytes are in the subdirectory `bowl`).
 
 Fork and PR or open an issue if you'd like to add your quine. But first, make sure it meets the requirements:
 
