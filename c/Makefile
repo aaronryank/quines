@@ -1,56 +1,50 @@
-$(CC) := gcc -w
+CC := gcc -w
+
 all:
-	$(GCC) 064-shortest.c -o 
-	$(GCC) 066-miller.c -o 
-	$(GCC) 068-unknown.c -o 
-	$(GCC) 077-hollingsworth.c -o 
-	$(GCC) 078-jargon-file.c -o 
-	$(GCC) 079-unknown.c -o 
-	$(GCC) 081-miller.c -o 
-	$(GCC) 084-hu.c -o 
-	$(GCC) 085-dd.c -o 
-	$(GCC) 092-ruohtula.c -o 
-	$(GCC) 097-unknown.c -o 
-	$(GCC) 099-lindbergh.c -o 
-	$(GCC) 100-machi.c -o 
-	$(GCC) 102-hu.c -o 
-	$(GCC) 113-unknown.c -o 
-	$(GCC) 115-hsieh.c -o 
-	$(GCC) 115-reverse.c -o 
-	$(GCC) 124-mogensen.c -o 
-	$(GCC) 144-reverse.c -o 
-	$(GCC) 157-emmit.c -o 
-	$(GCC) 178-cranston.c -o 
-	$(GCC) 182-kaplan.c -o 
-	$(GCC) 185-unknown.c -o 
-	$(GCC) 190-unknown.c -o 
-	$(GCC) 192-smith.c -o 
-	$(GCC) 227-suikki.c -o 
-	$(GCC) 245-wooding.c -o 
-	$(GCC) 262-palindrome.c -o 
-	$(GCC) 263-palindrome.c -o 
-	$(GCC) 263-unknown.c -o 
-	$(GCC) 263-willem.c -o 
-	$(GCC) 275-palindrome.c -o 
-	$(GCC) 281-trigraphs.c -o 
-	$(GCC) 2824-evans.c -o 
-	$(GCC) 291-kaplan.c -o 
-	$(GCC) 292-harif.c -o 
-	$(GCC) 351-hagerman.c -o 
-	$(GCC) 351-hidaka.c -o 
-	$(GCC) 357-palindrome.c -o 
-	$(GCC) 357-unknown.c -o 
-	$(GCC) 364-unknown.c -o 
-	$(GCC) 371-kaplan.c -o 
-	$(GCC) 414-zefram.c -o 
-	$(GCC) 426-zhiwei.c -o 
-	$(GCC) 442-martin.c -o 
-	$(GCC) 449-kaplan.c -o 
-	$(GCC) 488-roll.c -o 
-	$(GCC) 512-luca.c -o 
-	$(GCC) 561-english.c -o 
-	$(GCC) 571-la.c -o 
-	$(GCC) 635-unknown.c -o 
-	$(GCC) 744-thumser.c -o 
-	$(GCC) 865-unknown.c -o 
-	$(GCC) 985-obfuscated.c -o 
+	$(CC) 060-shortest.c -o 060-shortest
+	$(CC) 068-unknown.c -o 068-unknown
+	$(CC) 078-jargon-file.c -o 078-jargon-file
+	$(CC) 079-unknown.c -o 079-original
+	$(CC) 081-miller.c -o 081-miller
+	$(CC) 084-hu.c -o 084-hu
+	$(CC) 085-dd.c -o 085-dd
+	$(CC) 092-ruohtula.c -o 092-ruohtula
+	$(CC) 097-unknown.c -o 097-unknown
+	$(CC) 099-lindbergh.c -o 099-lindbergh
+	$(CC) 100-machi.c -o 100-machi
+	$(CC) 102-hu.c -o 102-hu
+	$(CC) 113-unknown.c -o 113-unknown
+	$(CC) 115-hsieh.c -o 115-hsieh
+	$(CC) 115-reverse.c -o 115-reverse -Df=main
+	$(CC) 124-mogensen.c -o 124-mogensen
+	$(CC) 144-reverse.c -o 144-reverse
+	$(CC) 157-emmit.c -o 157-emmit
+	$(CC) 178-cranston.c -o 178-cranston
+	$(CC) 182-kaplan.c -o 182-kaplan
+	$(CC) 185-unknown.c -o 185-unknown
+	$(CC) 190-unknown.c -o 190-unknown
+	$(CC) 192-smith.c -o 192-smith
+	$(CC) 227-suikki.c -o 227-suikki
+	$(CC) 245-wooding.c -o 245-wooding
+	$(CC) 262-palindrome.c -o 262-palindrome
+	$(CC) 263-palindrome.c -o 263-palindrome
+	$(CC) 263-unknown.c -o 263-unknown
+	$(CC) 263-willem.c -o 263-willem
+	$(CC) 275-palindrome.c -o 275-palindrome
+	$(CC) 281-trigraphs.c -o 281-trigraphs -trigraphs
+	$(CC) 291-kaplan.c -o 291-kaplan
+	$(CC) 292-harif.c -o 292-harif
+	$(CC) 351-hagerman.c -o 351-hagerman
+	$(CC) 351-hidaka.c -o 351-hidaka
+	$(CC) 357-palindrome.c -o 357-palindrome
+	$(CC) 357-unknown.c -o 357-unknown
+	$(CC) 364-unknown.c -o 364-unknown
+	$(CC) 371-kaplan.c -o 371-kaplan
+	$(CC) 414-zefram.c -o 414-zefram
+	$(CC) 442-martin.c -o 442-martin
+	$(CC) 449-kaplan.c -o 449-kaplan
+	$(CC) 512-luca.c -o 512-luca
+	$(CC) 561-english.c -o 561-english
+	$(CC) 635-unknown.c -o 635-unknown
+	$(CC) 744-thumser.c -o 744-thumser
+	$(CC) 865-unknown.c -o 865-unknown
