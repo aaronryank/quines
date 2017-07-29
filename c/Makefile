@@ -2,6 +2,7 @@ CC := gcc -w
 
 all:
 	$(CC) 060-shortest.c -o 060-shortest
+	$(CC) 063-md.c -o 063-md
 	$(CC) 068-unknown.c -o 068-unknown
 	$(CC) 077-efermat.c -o 077-efermat
 	$(CC) 078-jargon-file.c -o 078-jargon-file
