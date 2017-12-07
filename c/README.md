@@ -9,6 +9,6 @@ Fork and PR or open an issue if you'd like to add your quine. But first, make su
  - Cannot pull data from the internet
  - Cannot read its source nor its executable ([thanks, Dennis](https://codegolf.stackexchange.com/a/122136/61563))
  - Must be more than 1 byte
- - Must be system-independent
+ - Must be system-independent (you may assume POSIX and ASCII)
 
 On top of this, if you manage to beat my 60-character quine, [there is an extended bounty on PPCG.](https://codegolf.meta.stackexchange.com/a/12581/61563)
